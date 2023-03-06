@@ -10,8 +10,9 @@ public static partial class GData
     public const string OBJ_NAME_CURRENT_LEVEL = "Level_1";
 }
 
-public enum PuzzleType
+public enum TerrainType
 {
-    NONE = -1, 
-    PUZZLE_BIG_TRIANGLE
-}       // PuzzleType
+    NONE = -1,
+    PLAIN_PASS,
+    OCEAN_N_PASS
+}
